@@ -4,6 +4,7 @@ Simple Markdown to HTML converter using built-in modules
 """
 
 import sys
+import os
 import re
 import html
 
@@ -30,7 +31,7 @@ def convert_markdown_to_html(markdown_text):
     return html_text
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
+    if len(sys.argv) != 3:
         print("Usage: ./markdown2html.py <input_file> <output_file>", file=sys.stderr)
         sys.exit(1)
 
