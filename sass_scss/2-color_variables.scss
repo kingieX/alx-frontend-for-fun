@@ -1,0 +1,12 @@
+//file that assigns text color and background color
+$text-color: #3d3d3d;
+$background-color: #6d6d6d;
+
+body {
+	color: $text-color;
+	background-color: $background-color;
+}
+p {
+	color: $text-color;
+	background-color: $background-color;
+}
